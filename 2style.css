@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#car1{
+    height:50px;
+    width: 100px;
+    background-color: black;
+}
+#car2{
+    position: absolute; /*isse vo upper aa jayega or move vi oh skta hai 
+      left right and top bottom will work when absolute is define*/
+    left: 10%;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(99, 11, 11);
+}
+
+#car3{
+    height:100px;
+    width: 150px;
+    background-color: rgb(42, 6, 104);
+}
+
+#box{
+    
+    height: 100px;
+    width: 50px;
+    background-color: rgb(6, 104, 88);
+    /* position: relative; /*isse vo niche aa jayega or move vi oh skta hai  */
+      /* left right and top bottom will work when absolute is define*/
+    /* left: 40%;
+    top: 20px; */ 
+}
+
+#smallbox{
+     position: absolute;
+    left: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(104, 6, 88);
+    /* position: absolute; /*isse vo upper aa jayega or move vi oh skta hai  */
+      /* left right and top bottom will work when absolute is define*/
+    /* left: 40%; */
+    /* top: 20px; */ 
+}
+#lion{
+    /* position: relative; */
+    height: 300px;
+    width: 300px;
+    background-color: rgb(104, 6, 26);
+    
+}
+#fox{
+    /* position: relative; */
+    /* left: 70%; */
+    height: 200px;
+    width: 200px;
+    background-color: rgb(36, 9, 146);
+}
+#cat{
+    position:relative;
+    height: 120px;
+    width: 120px;
+    background-color: rgb(88, 104, 6);
+}
+#dog{
+     position: absolute;
+    left: 50%; 
+    height: 10px;
+    width: 10px;
+    background-color: rgb(2, 40, 34);
+}
+#homepage{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(179, 179, 179);
+}
+#side{
+    position: absolute; /*isse vo upper aa jayega or move vi oh skta hai 
+      left right and top bottom will work when absolute is define*/
+    position: fixed;  /*isse vo scroll krne pr vi apni jagah pr hi rhega*/
+    right: 0;
+    top: 50;
+    height:10%;
+    width: 5%;
+    background-color: rgb(104, 6, 88);
+}
+#parent{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(6, 88, 104);
+
+}
+#child1{
+    position: absolute;
+    left: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(104, 6, 88);
+}
+#child2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(88, 104, 6);
+}
+#sticky{
+    position: sticky; /*isse vo scroll krne pr vi apni jagah pr hi rhega jb tk ki vo
+     apni position pr na pohnch jaye*/
+    top: 0; /*top se start hoga jb scroll krenge to top pr hi rhega*/
+    height: 100px;
+    width: 100%;
+    background-color: rgb(6, 88, 104);
+}

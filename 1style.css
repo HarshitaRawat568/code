@@ -1,0 +1,42 @@
+/* @font-face {
+    font-family: "MyFont";  /* font ka naam */
+    /* src: url(""); font file ka path */
+/* }
+ */ 
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height:100%;
+    width: 100%;
+
+
+    background-image: url(https://images.wallpapersden.com/image/download/half-moon-dark-night_bGltbWmUmZqaraWkpJRnZ2ttrWZoa2U.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px;
+
+
+}
+
+
+h1{
+    font-family: "MyFont", sans-serif;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+ button{
+    margin-top: 50px;
+    font-size: 20px;
+ }
+
